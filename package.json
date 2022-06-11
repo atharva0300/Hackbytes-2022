@@ -1,0 +1,30 @@
+{
+  "name": "hackbytes-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "client": "npm start --prefix ./client",
+    "server": "nodemon server",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharva0300/Hackbytes-2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atharva0300/Hackbytes-2022/issues"
+  },
+  "homepage": "https://github.com/atharva0300/Hackbytes-2022#readme",
+  "dependencies": {
+    "concurrently": "^7.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
