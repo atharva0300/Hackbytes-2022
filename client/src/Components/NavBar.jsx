@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-light ">
     <div className="container text-uppercase p-2">
       <a className="navbar-brand" href="/">
-        FootBall
+        Hobbies
       </a>
       <button
         className="navbar-toggler"
