@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div className="wrapper ">
+      {/* <div className="wrapper "> */}
 
 
         <div className="container-fluid nav_bg">
@@ -50,11 +50,7 @@ const Navbar = () => {
                           Music
                         </NavLink>
                       </li>
-                      <li className="nav-item">
-                        <NavLink className="nav-link" to="/phototgraphy">
-                          Photography
-                        </NavLink>
-                      </li>
+                     
                     </ul>
                   </div>
                 </div>
@@ -62,7 +58,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </>
   );
 };

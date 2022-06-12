@@ -6,7 +6,7 @@ import Sports from "./Components/Sports/Sports";
 import Music from "./Components/Music/Music";
 import Photography from "./Components/Photography/Photography";
 import { Routes, Route, Navigate } from 'react-router-dom';
-import Navbar from './Components/NavBar';
+import Navbar from '../src/Components/NavBar';
 function App() {
   return (
     <>
