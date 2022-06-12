@@ -68,19 +68,19 @@
     margin-top: 5rem;
 }
 
-.title {
+.title-1 {
     margin: 4rem 0 7rem 0;
     text-align: center;
 }
 
-.title h1 {
+.title-1 h2 {
     font-size: 3rem;
     display: inline-block;
     position: relative;
     z-index: 0;
 }
 
-.title h1::after {
+.title-1 h2::after {
     content: "";
     position: absolute;
     left: 50%;
@@ -111,7 +111,7 @@
     filter: drop-shadow(-140px -140px 5px rgba(0, 0, 0, 0.5));
 }
 
-.right h1 {
+.right h2 {
     margin-bottom: 2rem;
 }
 
@@ -125,7 +125,7 @@
     color: #333;
 }
 
-.right h1 span {
+.right h2 span {
     color: #dd9a05;
 }
 

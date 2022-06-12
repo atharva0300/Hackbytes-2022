@@ -10,8 +10,8 @@ function Sports() {
     <>
    
     <section className="section about" id="about">
-    <div className="title">
-      <h1 className='mb-5'>Favourite Players</h1>
+    <div className="title-1">
+      <h2 className='header-line mb-5'>Favourite Players</h2>
     </div>
     <div className="about-center container">
       <div className="row">
@@ -19,7 +19,7 @@ function Sports() {
           <img src={Neymar} alt="" />
         </div>
         <div className="col col-md-6 col-lg-6 col-sm-12 col-xs-12">
-          <h1>Nemar</h1>
+          <h2>Nemar</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi,
             voluptate! Mollitia, perspiciatis praesentium. Consequatur
@@ -39,7 +39,7 @@ function Sports() {
     <div className="about-center container">
         <div className="row">
           <div className="col col-md-6 col-lg-6 col-sm-12 col-xs-12">
-            <h1> Ronaldo</h1>
+            <h2> Ronaldo</h2>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Modi, voluptate! Mollitia, perspiciatis praesentium.
@@ -66,7 +66,7 @@ function Sports() {
             <img src={Messi} alt="" />
           </div>
           <div className="col col-md-6 col-lg-6 col-sm-12 col-xs-12">
-            <h1>Messi</h1>
+            <h2>Messi</h2>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Modi, voluptate! Mollitia, perspiciatis praesentium.
@@ -87,8 +87,8 @@ function Sports() {
   </section>
 
   <section className="section them mb-5" >
-            <div className="title">
-                <h1>Favourite Teams</h1>
+            <div className="title-1">
+                <h2>Favourite Teams</h2>
             </div>
             <div className="team-center container">
                 <div className="team">
