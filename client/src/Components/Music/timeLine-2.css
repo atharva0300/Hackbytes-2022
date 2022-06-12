@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.TimeLine2{
+    background : black;
+    background-repeat: no-repeat;
+}
+
+/* card */
+
+.card2{
+    content: '';
+    width : 200px;
+    height : 600px;
+    position: relative;
+    margin-left : 900px;
+    transform: skewX(-15deg);
+    border-radius: 8px;
+    align-self: center;
+    background: linear-gradient(315deg , #03a9f4 ,#ff0058);
+    transition : 1s;
+    backdrop-filter: blur(30px);
+    animation : animateCard 2s ease-in-out infinite;
+}
+
+@keyframes animateCard{
+    0%{
+        top : -100px;
+
+    }
+    50%{
+        top : -80px;
+
+    }
+    100%{
+        top : -100px;
+    }
+}
+
+
+.card2:hover{
+    transform: skewX(0deg);
+    width : 300px;
+    height : 800px;
+    margin-top : 200px;
+}
+
+.card2:before, .card:after{
+    background: linear-gradient(315deg , #03a9f4 ,#ff0058);
+}
+
+.wrapper2{
+    position : absolute;
+    height : 400px;
+    width : 500px;
+    top : 60px;
+    left : -120px;
+    border-radius: 8px;
+    transform: skewX(15deg);
+    background: rgba(255 , 255 , 255 , 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    opacity: 1;
+    transition : 1s;
+}
+
+.wrapper2:hover{
+    height : 700px;
+    width : 600px;
+    transform: skewX(0deg);
+}
+
+.content2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width : 100%;
+    height : 100px;
+    align-items: center;
+}
+
+.heading2{
+    text-align: center;
+    margin-left : 10px;
+    font-size: 50px;
+    font-weight:500;
+}
+
+.date2{
+    text-align: center;
+    margin-right : 10px;
+    font-size: 40px;
+}
+
+.details2{
+    align-items : center;
+    margin-top : 20px;
+}
+
+.details2 p{
+    font-size: 20px;
+    color : white;
+    font-style: italic;
+    margin-left : 20px;
+}
+
+.keyboard2{
+    position : absolute;
+    left : 200px;
+    top : 1200px;
+    width: 750px;
+    height : 350px;
+    background: linear-gradient(315deg , #ffbc00 ,#ff0058);
+    transform : skewX(30deg);
+    animation: animateKeyboard2 3s ease-in-out infinite;
+    transform-style: preserve-3d;
+}
+
+
+@keyframes animateKeyboard2{
+    0%{
+        top : 1200px;
+    }
+    50%{
+        top : 1250px;
+    }
+    100%{
+        top : 1200px;
+    }
+}
+
+
+
+/* white buttons */
+
+.white-button1{
+    position : absolute;
+    top : 25px;
+    left : 50px;
+    height : 300px;
+    width : 60px;
+    background-color: white;
+    animation : animateWhite1 4.2s ease-out;
+}
+
+@keyframes animateWhite1{
+    0%{
+        left : -1000px;
+    }
+    100%{
+        left : 50px;
+    }
+}
+
+
+.white-button2{
+    position : absolute;
+    top : 25px;
+    left : 115px;
+    height : 300px;
+    width : 60px;
+    background-color: white;
+    animation : animateWhite2 3.8s ease-out;
+}
+
+@keyframes animateWhite2{
+    0%{
+        left : -1000px;
+    }
+    100%{
+        left : 115px;
+    }
+}
+
+.white-button3{
+    position : absolute;
+    top : 25px;
+    left : 180px;
+    height : 300px;
+    width : 60px;
+    background-color: white;
+    animation : animateWhite3 3.4s ease-out;
+}
+
+@keyframes animateWhite3{
+    0%{
+        left : -1000px;
+    }
+    100%{
+        left : 180px;
+    }
+}
+
+.white-button4{
+    position : absolute;
+    top : 25px;
+    left : 245px;
+    height : 300px;
+    width : 60px;
+    background-color: white;
+    animation : animateWhite4 3.2s ease-out;
+}
+
+@keyframes animateWhite4{
+    0%{
+        left : -1000px;
+    }
+    50%{
+    }
+    100%{
+        left : 245px;
+    }
+}
+
+.white-button5{
+    position : absolute;
+    top : 25px;
+    left : 310px;
+    height : 300px;
+    width : 60px;
+    background-color: white;
+    animation : animateWhite5 2.8s ease-out;
+}
+
+@keyframes animateWhite5{
+    0%{
+        left : -1000px;
+    }
+    100%{
+        left : 310px;
+    }
+}
+
+.white-button6{
+    position : absolute;
+    top : 25px;
+    left : 375px;
+    height : 300px;
+    width : 60px;
+    background-color: white;
+    animation : animateWhite6 2.4s ease-out;
+}
+
+@keyframes animateWhite6{
+    0%{
+        left : -1000px;
+    }
+    100%{
+        left : 375px;
+    }
+}
+
+
+.white-button7{
+    position : absolute;
+    top : 25px;
+    left : 440px;
+    height : 300px;
+    width : 60px;
+    background-color: white;
+    animation : animateWhite7 2s ease-out;
+}
+
+@keyframes animateWhite7{
+    0%{
+        left : -1000px;
+    }
+    100%{
+        left : 440px;
+    }
+}
+
+.white-button8{
+    position : absolute;
+    top : 25px;
+    left : 505px;
+    height : 300px;
+    width : 60px;
+    background-color: white;
+    animation : animateWhite8 1.8s ease-out;
+}
+
+@keyframes animateWhite8{
+    0%{
+        left : -1000px;
+    }
+    100%{
+        left : 505px;
+    }
+}
+
+.white-button9{
+    position : absolute;
+    top : 25px;
+    left : 570px;
+    height : 300px;
+    width : 60px;
+    background-color: white;
+    animation : animateWhite9 1.4s ease-out;
+}
+
+@keyframes animateWhite9{
+    0%{
+        left : -1000px;
+    }
+    100%{
+        left : 570px;
+    }
+}
+
+.white-button10{
+    position : absolute;
+    top : 25px;
+    left : 635px;
+    height : 300px;
+    width : 60px;
+    background-color: white;
+    animation: animateWhite10 1s ease-out;
+}
+
+@keyframes animateWhite10{
+    0%{
+        left : -1000px;
+    }
+    100%{
+        left : 635px;
+    }
+}
+
+
+/* black keys */
+
+.black-button1{
+    position : absolute;
+    top : 25px;
+    left : 90px;
+    height : 150px;
+    width : 40px;
+    background-image: linear-gradient(#000000 , #303030);
+    z-index : 10;
+    animation : animateBlack1 4s ease-out;
+}
+
+@keyframes animateBlack1{
+    0%{
+        left : -1000px;
+    }
+    100%{
+        left : 90px;
+    }
+}
+
+.black-button2{
+    position : absolute;
+    top : 25px;
+    left : 160px;
+    height : 150px;
+    width : 40px;
+    background-image: linear-gradient(#000000 , #303030);
+    z-index : 10;
+    animation : animateBlack2 3.6s ease-out;
+}
+
+@keyframes animateBlack2{
+    0%{
+        left : -1000px;
+    }
+    100%{
+        left : 160px;
+    }
+}
+
+.black-button3{
+    position : absolute;
+    top : 25px;
+    left : 290px;
+    height : 150px;
+    width : 40px;
+    background-image: linear-gradient(#000000 , #303030);
+    z-index : 10;
+    animation : animateBlack3 3s ease-out;
+}
+
+@keyframes animateBlack3{
+    0%{
+        left : -1000px;
+    }
+    100%{
+        left : 290px;
+    }
+}
+
+
+.black-button4{
+    position : absolute;
+    top : 25px;
+    left : 355px;
+    height : 150px;
+    width : 40px;
+    background-image: linear-gradient(#000000 , #303030);
+    z-index : 10;
+    animation : animateBlack4 2.6s ease-out;
+}
+
+@keyframes animateBlack4{
+    0%{
+        left : -1000px;
+    }
+    100%{
+        left : 355px;
+    }
+}
+
+
+.black-button5{
+    position : absolute;
+    top : 25px;
+    left : 420px;
+    height : 150px;
+    width : 40px;
+    background-image: linear-gradient(#000000 , #303030);
+    z-index : 10;
+    animation : animateBlack5 2.2s ease-out;
+}
+
+@keyframes animateBlack5{
+    0%{
+        left : -1000px;
+    }
+    100%{
+        left : 420px;
+    }
+}
+
+.black-button6{
+    position : absolute;
+    top : 25px;
+    left : 550px;
+    height : 150px;
+    width : 40px;
+    background-image: linear-gradient(#000000 , #303030);
+    z-index : 10;
+    animation : animateBlack6 1.6s ease-out;
+}
+
+@keyframes animateBlack6{
+    0%{
+        left : -1000px;
+    }
+    100%{
+        left : 550px;
+    }
+}
+
+
+.black-button7{
+    position : absolute;
+    top : 25px;
+    left : 615px;
+    height : 150px;
+    width : 40px;
+    background-image: linear-gradient(#000000 , #303030);
+    z-index : 10;
+    animation : animateBlack7 1.2s ease-out;
+}
+
+@keyframes animateBlack7{
+    0%{
+        left : -1000px;
+    }
+    100%{
+        left : 610px;
+    }
+}
+
+
+/* button */
+.button{
+    width: 300px;
+    height : 100px;
+    color : white;
+    position: absolute;
+    top : 1100px;
+    left : 400px;
+}
+
+
+
+.container3{
+    position : absolute;
+    left : 0px;
+    display : flex;
+    width : 1920px;
+    height : 800px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding : 40px 0;
+}
+
+.container3 .box{
+    position : relative;
+    width : 500px;
+    height : 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 40px 30px;
+    transition : 0.5s;
+    animation : animateBox 2s ease-in-out infinite;
+}
+
+@keyframes animateBox{
+    0%{
+        top : -20px;
+    }
+    50%{
+        top : 20px;
+    }
+    100%{
+        top : -20px;
+    }
+}
+
+.container3 .box::before{
+    content : '';
+    position : absolute;
+    top : 0;
+    left : 50px;
+    width : 50%;
+    height : 100%;
+    background: #fff;
+    border-radius : 8px;
+    transform: skewX(15deg);
+    transition : 0.5s;
+}
+
+.container3 .box::after{
+    content : '';
+    position : absolute;
+    top : 0;
+    left : 50px;
+    width : 50%;
+    height : 100%;
+    background: #fff;
+    border-radius : 8px;
+    transform: skewX(15deg);
+    transition : 0.5s;
+    filter: blur(30px);
+    transition: 0.5s;
+}
+
+.container3 .box:hover:before , 
+.container3 .box:hover:after{
+    transform :skewX(0deg);
+    left : 20px;
+    width : calc(100% - 90px);
+}
+
+
+.container3 .box:nth-child(1):before,
+.container3 .box:nth-child(1):after{
+    background: linear-gradient(315deg , #ffbc00 ,#ff0058);
+}
+
+.container3 .box:nth-child(2):before,
+.container3 .box:nth-child(2):after{
+    background: linear-gradient(315deg , #03a9f4 ,#ff0058);
+}
+
+.container3 .box:nth-child(3):before,
+.container3 .box:nth-child(3):after{
+    background: linear-gradient(315deg , #4dff03 ,#00d0ff);
+}
+
+.container3 .box span{
+    display: block;
+    position : absolute;
+    top : 0;
+    left : 0;
+    right : 0;
+    bottom : 0;
+    z-index: 50;
+    pointer-events: none;
+}
+
+.container3 .box span::before{
+    content : '';
+    position : absolute;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%;
+    border-radius: 8px;
+    background: rgba(255 , 255 , 255 , 0.1);
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    transition : 0.5s;
+    animation: animate 2s ease-in-out infinite;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.container3 .box:hover span::before{
+    opacity: 1;
+    top : -50px;
+    left : 50px;
+    width: 100px;
+    height : 100px;
+}
+
+.container3 .box span::after{
+    content : '';
+    position : absolute;
+    bottom : 0;
+    right : 0;
+    width : 100%;
+    height : 100%;
+    border-radius: 8px;
+    background: rgba(255 , 255 , 255 , 0.1);
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    transition : 0.5s;
+    animation: animate 2s ease-in-out infinite;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    animation-delay: -1s;
+}
+
+.container3 .box:hover span::after{
+    opacity: 1;
+    bottom : -50px;
+    right : 50px;
+    width: 100px;
+    height : 100px;
+}
+
+
+
+@keyframes animate{
+    0%,100%{
+        transform : translateY(10px);
+    }
+    50%{
+        transform : translateY(-10px);
+    }
+}
+
+
+.container3 .box .content{
+    z-index:  1;
+    position : relative;
+    left : 0;
+    padding : 20px 40px;
+    background : rgba(255 , 255 , 255 , 0.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    transition: 0.5s;
+    color : #fff;
+}
+
+.container3 .box .content img{
+    width : 200px;
+    height : 200px;
+    border :white;
+    border-radius: 10px;
+}
+
+
+.container3 .box:hover .content{
+    left : -25px;
+    padding : 60px 40px;
+    width : 450px;
+    height : 450px;
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container3 .box:hover .content img{
+    width : 100%;
+    height: 100%;
+}
+
+.container3 .box .content h2{
+    font-size : 2em;
+    color : #fff;
+    margin-bottom : 10px;
+}
+
+.container3 .box .content p{
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+}
+
+.container3 .box .content a{
+    display: inline-bock;
+    font-size : 1.1em;
+    color : #111;
+    background : #fff;
+    padding : 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top : 5px;
+    visibility: hidden;
+}
+
+.container3 .box:hover .content a{
+    visibility: visible;
+}
