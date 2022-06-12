@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.828801ef.css",
+    "main.js": "/static/js/main.9a4c7b68.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/4.jpg": "/static/media/4.cd0ba4627df620d8a104.jpg",
+    "static/media/3.jpg": "/static/media/3.7a956dfb07a879bb9e75.jpg",
+    "static/media/5.jpg": "/static/media/5.f1173c78dbb2280116bb.jpg",
+    "static/media/messi.png": "/static/media/messi.91fb0b4a3ebab65cc13f.png",
+    "static/media/6.png": "/static/media/6.45e6a73e4f48128b0dd0.png",
+    "static/media/bg.png": "/static/media/bg.20154c0db859f48f7d70.png",
+    "static/media/staffNotation.jpeg": "/static/media/staffNotation.14fdd62c7f3e8a4d1d37.jpeg",
+    "static/media/MU.png": "/static/media/MU.5f327d93d3fa92e6c005.png",
+    "static/media/player.png": "/static/media/player.5fa3a42e7e9bdb2eaf1c.png",
+    "static/media/E4.mp3": "/static/media/E4.e81e10ffe4446669acef.mp3",
+    "static/media/ronaldo.png": "/static/media/ronaldo.9fc209e5bc9bf5f2ad2a.png",
+    "static/media/LFC.png": "/static/media/LFC.5216983397e0d08682ae.png",
+    "static/media/F4.mp3": "/static/media/F4.4a44f457642e6afbd49b.mp3",
+    "static/media/Eb4.mp3": "/static/media/Eb4.d69e77f57af34f2dbe88.mp3",
+    "static/media/C5.mp3": "/static/media/C5.fef15f2eb19d6298744e.mp3",
+    "static/media/Db4.mp3": "/static/media/Db4.09b4b57be297abbc5f71.mp3",
+    "static/media/G4.mp3": "/static/media/G4.8df644df1a55e0096566.mp3",
+    "static/media/Gb4.mp3": "/static/media/Gb4.186032a50b9d3c1977e4.mp3",
+    "static/media/C4.mp3": "/static/media/C4.b4e73365d56a956ce38a.mp3",
+    "static/media/A4.mp3": "/static/media/A4.433d3f857a26a2e311e1.mp3",
+    "static/media/Ab4.mp3": "/static/media/Ab4.2b3a0e8bdd336bb75597.mp3",
+    "static/media/B4.mp3": "/static/media/B4.fb837237150cb6cc7c04.mp3",
+    "static/media/D4.mp3": "/static/media/D4.62f6aa7d7b473236cc2b.mp3",
+    "static/media/E5.mp3": "/static/media/E5.33bdd8a52eb06fb4b442.mp3",
+    "static/media/D5.mp3": "/static/media/D5.424508d63967ee7fa719.mp3",
+    "static/media/Bb4.mp3": "/static/media/Bb4.99982b22008c68d23c8b.mp3",
+    "static/media/Db5.mp3": "/static/media/Db5.0b9172cd75e5803d06b2.mp3",
+    "static/media/Eb5.mp3": "/static/media/Eb5.c9d7ed69c8ab09174dcb.mp3",
+    "index.html": "/index.html",
+    "main.828801ef.css.map": "/static/css/main.828801ef.css.map",
+    "main.9a4c7b68.js.map": "/static/js/main.9a4c7b68.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.828801ef.css",
+    "static/js/main.9a4c7b68.js"
+  ]
+}
