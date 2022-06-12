@@ -7,7 +7,7 @@
     height : 600px;
     position: relative;
     margin-left : 200px;
-    transform: skewX(15deg);
+    transform: skewX(0deg);
     border-radius: 8px;
     align-self: center;
     background: linear-gradient(315deg , #ffbc00 ,#ff0058);
@@ -38,14 +38,14 @@
     background: linear-gradient(315deg , #ffbc00 ,#ff0058);
 }
 
-.wrapper{
+.wrapper2{
+    transform: skewX(-15deg);
     position : absolute;
     height : 400px;
     width : 400px;
     top : 60px;
     left : -80px;
     border-radius: 8px;
-    transform: skewX(-15deg);
     background: rgba(255 , 255 , 255 , 0.1);
     backdrop-filter: blur(10px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);
@@ -53,7 +53,7 @@
     transition : 1s;
 }
 
-.wrapper:hover{
+.wrapper2:hover{
     height : 500px;
     width : 400px;
     transform: skewX(0deg);
