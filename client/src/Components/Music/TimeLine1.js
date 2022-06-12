@@ -258,7 +258,7 @@ function TimeLine1() {
   return (
     <div className='Timeline1 w-screen h-screen flex flex-row justify-between'>
           <div className='card mt-24'>
-            <div className='wrapper'>
+            <div className='wrapper2'>
               <div className='content'>
                 <span className='heading text-fuchsia-700'>Playing the Piano</span>
                 <span className='date text-fuchsia-700'>Since 2nd grade!</span>
